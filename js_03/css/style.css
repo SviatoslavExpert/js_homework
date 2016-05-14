@@ -1,0 +1,17 @@
+
+.time {
+	width: 700px;
+	margin: 200px auto auto;
+	font-size: 100px;
+	display: block;
+	text-align: center;
+}
+
+.buttons {
+	width: 260px;
+	margin: 10px auto auto auto;
+}
+
+.btn {
+	width: 100px;
+}
