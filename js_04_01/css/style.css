@@ -1,0 +1,10 @@
+.tabs-content > div{
+	background: #f1f1f1 none repeat scroll 0 0;
+	display: none;
+    min-height: 400px;
+	padding: 20px;
+}
+
+.tabs-content > div:first-child{
+	display: block;
+}
