@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script src="http://code.jquery.com/jquery-1.12.3.min.js"></script>
+	<script src="js/tmpl.js"></script>
+	<script src="js/page-data.js"></script>
+	<script src="js/script.js"></script>
+</head>
+<body>
+		<script type="text/html" id="test">
+		    <h1><%=pageData[0]["name"]%></h1>
+			<img src="<%=pageData[0]["photo"]["src"]%>" alt="<%=pageData[0]["photo"]["alt"]%> title="<%=pageData[0]["photo"]["title"]%>">
+			<p><%=pageData[0]["job"]%></p>
+			<div class="frontend">
+				<p><%=pageData[0]["why"]%></p>
+				<ul class="list">
+					<% for(var i=0; i<pageData[0]["reasons"].length; i++){ %>
+						<li><%=pageData[0]["reasons"][i]%></li>
+					<% } %>
+				</ul>
+			</div>
+			<div class="contacts">
+				<p class="phone"><%=pageData[0]["tel"]%>
+				<br><%=pageData[0]["number"]%></p>
+				<p class="vk<%=pageData[0]["vk"]%><br>
+				<a href="<%=pageData[0]["vk_link"]%>" target="_blank">vk.com</a></p>
+			</div>
+			<p class="feed"><%=pageData[0]["feedback"]%><br>
+			<%=pageData[0]["feedback_text"]%></p>
+		</script>
+
+</body>
+</html>
