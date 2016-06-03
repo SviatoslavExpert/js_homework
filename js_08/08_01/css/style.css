@@ -1,0 +1,39 @@
+#search{
+	text-align: center;
+}
+
+.form-control {
+	width: 400px;
+}
+
+.container {
+	margin: 50px auto 20px auto;
+	width: 450px;
+}
+
+.logo {
+	text-align: center;
+	font-size: 24px;
+	padding-bottom: 20px;
+}
+
+.resultItem{
+	color: #fff;
+	text-decoration: none;
+	display: inline-block;
+	padding: 5px;
+	margin: 3px;
+	border: 1px solid #c0c0c0;
+	vertical-align: middle;
+}
+
+.resultItem:hover{
+	color: #fff;
+}
+
+.resultItem span{
+	display: block;
+	margin: -20px 0 0 0;
+}
+
+
